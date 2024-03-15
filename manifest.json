@@ -1,0 +1,16 @@
+{
+    "name": "TrackThat",
+    "version": "1.0",
+    "description": "Track changes in price on specific web pages and items.",
+    "permissions": [
+        "contextMenus", "storage"
+    ],
+    "background": {
+        "service_worker": "./src/background.js"
+    },
+    "action": {
+      "default_popup": "./src/popup.html",
+      "default_icon": "./images/hello_extensions.png"
+    },
+    "manifest_version": 3
+}

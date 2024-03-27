@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Price Tracker",
+  "version": "1.0",
+  "description": "Track prices of items and receive email notifications for price changes.",
+  "permissions": ["contextMenus", "storage", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
